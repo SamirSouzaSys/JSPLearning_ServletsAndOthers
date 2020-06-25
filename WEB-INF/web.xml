@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+"http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+    <servlet>
+        <servlet-name>ServletSessao</servlet-name>
+        <servlet-class>servlets.C01Sessao</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletSessao</servlet-name>
+        <url-pattern>/c01Sessao</url-pattern>
+    </servlet-mapping>
+
+        <servlet>
+        <servlet-name>Servlet2Sessao</servlet-name>
+        <servlet-class>servlets.C03SessaoURL</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlet2Sessao</servlet-name>
+        <url-pattern>/c03SessaoURL</url-pattern>
+    </servlet-mapping>
+</web-app>
